@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -23,12 +24,26 @@ const Header = () => {
         ></div>
         <div className={active ? "navigation active" : "navigation"}>
           <ul>
-            <li>
-              <p>Home</p>
-            </li>
-            <li>
-              <p>Services</p>
-            </li>
+            <Link
+              to="/"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              <li>
+                <p>Home</p>
+              </li>
+            </Link>
+            <Link
+              to="/services"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              <li>
+                <p>Services</p>
+              </li>
+            </Link>
             <li>
               <p>Work</p>
             </li>

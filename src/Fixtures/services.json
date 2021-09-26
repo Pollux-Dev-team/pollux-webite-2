@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Design",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ipsumnecessitatibus atque nemo cumque ullam? Minus molestias iusto aliasarchitecto.",
+    "img": "./Assets/images/001.png"
+  },
+  {
+    "id": 2,
+    "name": "Web Development",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ipsumnecessitatibus atque nemo cumque ullam? Minus molestias iusto aliasarchitecto.",
+    "img": "./Assets/images/002.png"
+  },
+  {
+    "id": 3,
+    "name": "SEO",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ipsumnecessitatibus atque nemo cumque ullam? Minus molestias iusto aliasarchitecto.",
+    "img": "./Assets/images/003.png"
+  },
+  {
+    "id": 4,
+    "name": "Marketing",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ipsumnecessitatibus atque nemo cumque ullam? Minus molestias iusto aliasarchitecto.",
+    "img": "./Assets/images/004.png"
+  },
+  {
+    "id": 5,
+    "name": "App Development",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ipsumnecessitatibus atque nemo cumque ullam? Minus molestias iusto aliasarchitecto.",
+    "img": "./Assets/images/005.png"
+  },
+  {
+    "id": 6,
+    "name": "Error Fixing",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ipsumnecessitatibus atque nemo cumque ullam? Minus molestias iusto aliasarchitecto.",
+    "img": "./Assets/images/006.png"
+  }
+]

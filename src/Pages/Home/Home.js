@@ -1,9 +1,9 @@
 import React from "react";
-import "./HomeContent.css";
+import "./Home.css";
 
 const HomeContent = () => {
   return (
-    <section>
+    <section className="home">
       <img className="home-img" src="./Assets/images/home-img.jpg" alt="" />
       <div className="home-content">
         <h1>

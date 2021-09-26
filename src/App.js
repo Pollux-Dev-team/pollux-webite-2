@@ -1,12 +1,16 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
-import HomeContent from "./Components/HomeContent/HomeContent";
-
+import Home from "./Pages/Home/Home";
+import ServicesPage from "./Pages/ServicesPage/ServicesPage";
+import { Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div>
       <Header />
-      <HomeContent />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/services" component={ServicesPage} />
+      </Switch>
     </div>
   );
 }

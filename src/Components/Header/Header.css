@@ -86,3 +86,14 @@
 .navigation.active {
   left: 0;
 }
+
+@media (max-width: 1068px) {
+  .logo {
+    top: 10px;
+    left: 40px;
+    font-size: 1.5rem;
+  }
+  .navigation ul li p {
+    font-size: 2rem;
+  }
+}
