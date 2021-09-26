@@ -55,12 +55,12 @@ const Header = () => {
             <ul>
               <li>
                 <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                  <img src="./Assets/images/facebook.png" alt="" />
+                  <img src="./Assets/images/Socials/facebook.png" alt="" />
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                  <img src="./Assets/images/twitter.png" alt="" />
+                  <img src="./Assets/images/Socials/twitter.png" alt="" />
                 </a>
               </li>
               <li>
@@ -69,7 +69,7 @@ const Header = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src="./Assets/images/instagram.png" alt="" />
+                  <img src="./Assets/images/Socials/instagram.png" alt="" />
                 </a>
               </li>
             </ul>
