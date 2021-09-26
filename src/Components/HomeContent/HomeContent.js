@@ -1,4 +1,5 @@
 import React from "react";
+import "./HomeContent.css";
 
 const HomeContent = () => {
   return (
@@ -15,7 +16,7 @@ const HomeContent = () => {
           exercitationem omnis ab aliquid ipsa sapiente architecto? Asperiores
           quae maxime quidem rem!
         </p>
-        <p className="btn">Get Started</p>
+        <a className="btn">Get Started</a>
       </div>
     </section>
   );
