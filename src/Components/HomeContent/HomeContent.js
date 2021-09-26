@@ -13,8 +13,7 @@ const HomeContent = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ad atque
           numquam ratione impedit, voluptatibus possimus maxime nulla, id
           tenetur adipisci perferendis aliquam similique, rem iure cum eos
-          exercitationem omnis ab aliquid ipsa sapiente architecto? Asperiores
-          quae maxime quidem rem!
+          exercitationem omnis ab aliquid ipsa sapiente architecto?
         </p>
         <a className="btn">Get Started</a>
       </div>

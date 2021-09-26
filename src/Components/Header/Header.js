@@ -1,33 +1,59 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
 const Header = () => {
+  const [active, setActive] = useState(false);
+  let BackgroundNormal = "/Assets/images/menu.png";
+  let BackgroundActive = "/Assets/images/close.png";
+
   return (
     <div>
       <header>
         <div className="logo">Pollux Development</div>
-        <div className="toggle"></div>
-        <div className="navigation">
+        <div
+          className={active ? "toggle active" : "toggle"}
+          style={{
+            backgroundImage: `url(${
+              active ? BackgroundActive : BackgroundNormal
+            })`,
+          }}
+          onClick={() => {
+            setActive(!active);
+          }}
+        ></div>
+        <div className={active ? "navigation active" : "navigation"}>
           <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Work</li>
-            <li>Contact</li>
+            <li>
+              <p>Home</p>
+            </li>
+            <li>
+              <p>Services</p>
+            </li>
+            <li>
+              <p>Work</p>
+            </li>
+            <li>
+              <p>Contact</p>
+            </li>
           </ul>
           <div className="social-bar">
             <ul>
               <li>
-                <a href="https://facebook.com" target="_blank">
+                <a href="https://facebook.com" target="_blank" rel="noreferrer">
                   <img src="./Assets/images/facebook.png" alt="" />
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com" target="_blank">
+                <a href="https://twitter.com" target="_blank" rel="noreferrer">
                   <img src="./Assets/images/twitter.png" alt="" />
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com" target="_blank">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src="./Assets/images/instagram.png" alt="" />
                 </a>
               </li>
