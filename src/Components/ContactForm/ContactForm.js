@@ -105,11 +105,13 @@ const ContactForm = () => {
             <textarea name="message" placeholder="Message"></textarea>
           </div>
         </div>
-        <div className="row">
-          <div className="input100">
-            <input type="submit" value="Send" />
+        {submitted && valid ? null : (
+          <div className="row">
+            <div className="input100">
+              <input type="submit" value="Send" />
+            </div>
           </div>
-        </div>
+        )}
       </form>
     </div>
   );
