@@ -10,7 +10,9 @@ const Header = () => {
   return (
     <div>
       <header>
-        <div className="logo">Pollux Development</div>
+        <Link to="/">
+          <div className="logo">Pollux Development</div>
+        </Link>
         <div
           className={active ? "toggle active" : "toggle"}
           style={{
