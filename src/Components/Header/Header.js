@@ -54,9 +54,16 @@ const Header = () => {
                 <p>Work</p>
               </li>
             </Link>
-            <li>
-              <p>Contact</p>
-            </li>
+            <Link
+              to="/contact"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              <li>
+                <p>Contact</p>
+              </li>
+            </Link>
           </ul>
           <div className="social-bar">
             <ul>
