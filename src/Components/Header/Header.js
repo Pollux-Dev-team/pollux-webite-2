@@ -44,9 +44,16 @@ const Header = () => {
                 <p>Services</p>
               </li>
             </Link>
-            <li>
-              <p>Work</p>
-            </li>
+            <Link
+              to="/work"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              <li>
+                <p>Work</p>
+              </li>
+            </Link>
             <li>
               <p>Contact</p>
             </li>
