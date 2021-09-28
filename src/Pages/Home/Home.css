@@ -29,6 +29,7 @@ section.home {
   cursor: pointer;
   display: inline-block;
   background: var(--primary-color);
+  background-color: #EE6C4D;
   color: #fff;
   text-decoration: none;
   padding: 10px 30px;
