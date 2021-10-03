@@ -41,7 +41,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-form">
+    <div className="contact-form ">
       <form ref={form} onSubmit={sendEmail}>
         {submitted && valid ? (
           <div className="success">Success! Thank you for contacting us!</div>
