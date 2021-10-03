@@ -1,8 +1,9 @@
 .contact-form {
   position: relative;
-  background: #f9f9f9;
+  background: #3D5A80;
   width: calc(100% - 400px);
   padding: 60px 40px 20px;
+  border-radius: 10px;
 }
 
 .contact-form form {
@@ -35,10 +36,11 @@
 
 .contact-form .row input,
 .contact-form .row textarea {
+  font-family: "Poppins";
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  color: #111;
-  background: transparent;
+  border: none;
+  border-radius: 3px;
+  background-color: #E0FBFC;
   width: 100%;
   padding: 10px;
   outline: none;
@@ -53,8 +55,8 @@
 }
 
 .contact-form .row input[type="submit"] {
-  background-color: #1b206e;
-  color: #fff;
+  background-color: #EE6C4D;
+  color: #E0FBFC;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 2px;

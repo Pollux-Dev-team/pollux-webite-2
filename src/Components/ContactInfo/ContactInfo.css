@@ -1,6 +1,6 @@
 .contact-info {
   width: 350px;
-  background: #f9f9f9;
+  background: #293241;
   padding: 60px 40px 20px;
 }
 
@@ -22,11 +22,11 @@
 }
 
 .contact-info .info-box .details h4 {
-  color: #1b206e;
+  color: #3D5A80;
 }
 .contact-info .info-box .details p,
 .contact-info .info-box .details a {
-  color: #111;
+  color: #E0FBFC;
   font-size: 1rem;
   margin: 0;
 }
