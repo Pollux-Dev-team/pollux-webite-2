@@ -12,3 +12,7 @@
     flex-direction: column;
   }
 }
+
+.contactSection {
+  align-items: flex-start;
+}

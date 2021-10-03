@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import "../font-awesome/css/font-awesome.min.css"
+import "../font-awesome/css/font-awesome.min.css";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -75,7 +75,7 @@ const Header = () => {
                   <li className="fa fa-facebook fa-3x icons"> </li>
                 </a>
               </li>
-              <li >
+              <li>
                 <a href="https://twitter.com" target="_blank" rel="noreferrer">
                   <li className="fa fa-twitter fa-3x icons"> </li>
                 </a>
