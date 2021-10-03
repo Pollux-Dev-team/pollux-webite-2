@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import "../font-awesome/css/font-awesome.min.css";
 
 const Header = () => {
   const [active, setActive] = useState(false);
