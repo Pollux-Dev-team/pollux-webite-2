@@ -1,7 +1,22 @@
 [
-  { "id": 1, "img": "./Assets/abdulrahman.png" },
-  { "id": 2, "img": "./Assets/alarizona.png" },
-  { "id": 3, "img": "./Assets/tindog.png" },
-  { "id": 4, "img": "./Assets/24andfour.png" },
-  { "id": 5, "img": "./Assets/pedalfaster.png" }
+  {
+    "id": 3,
+    "img": "./Assets/tindog.png",
+    "link": "https://laughing-jepsen-5b81df.netlify.app/"
+  },
+  {
+    "id": 4,
+    "img": "./Assets/24andfour.png",
+    "link": "https://26andfourr.netlify.app/"
+  },
+  {
+    "id": 5,
+    "img": "./Assets/pedalfaster.png",
+    "link": "https://pedalfaster.netlify.app/"
+  },
+  {
+    "id": 1,
+    "img": "./Assets/abdulrahman.png",
+    "link": "https://abdulrahmanrihan.github.io/"
+  }
 ]

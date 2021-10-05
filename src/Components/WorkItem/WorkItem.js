@@ -7,7 +7,9 @@ const WorkItem = ({ element }) => {
       <div className="item">
         <img src={element.img} alt="" />
         <div className="action">
-          <a href="https://facebook.com">Launch</a>
+          <a href={element.link} target="_blank" rel="noreferrer">
+            Launch
+          </a>
         </div>
       </div>
     </div>

@@ -4,3 +4,10 @@
   margin-top: 20px;
   justify-content: center;
 }
+
+@media (max-width: 426px) {
+  .workSection {
+    padding: 0px 40px;
+    margin-top: 30px;
+  }
+}

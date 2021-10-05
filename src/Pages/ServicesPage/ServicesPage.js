@@ -5,7 +5,7 @@ import Service from "../../Components/Service/Service";
 
 const ServicesPage = () => {
   return (
-    <section>
+    <section className="servicesSection">
       <div className="title">
         <h1>Services that we can help you with :</h1>
         <p>

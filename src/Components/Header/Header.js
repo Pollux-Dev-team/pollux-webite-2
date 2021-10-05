@@ -11,7 +11,9 @@ const Header = () => {
     <div>
       <header>
         <Link to="/">
-          <div className="logo">Pollux Development</div>
+          <div className={active ? "logo active" : "logo"}>
+            <img alt="logo" src="/logo.png" />
+          </div>
         </Link>
         <div
           className={active ? "toggle active" : "toggle"}
@@ -70,27 +72,41 @@ const Header = () => {
           <div className="social-bar">
             <ul>
               <li>
-                <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                  <img src="/Assets/images/Socials/facebook.png" alt="Facebook"/>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                  <img src="/Assets/images/Socials/twitter.png" alt="Twitter"/>
+                <a
+                  href="https://www.facebook.com/polluxteam"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/Assets/images/Socials/facebook.png"
+                    alt="Facebook"
+                  />
                 </a>
               </li>
               <li>
                 <a
-                  href="https://instagram.com"
+                  href="https://twitter.com/polluxteam"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src="/Assets/images/Socials/instagram.png" alt="Instagram"/>
+                  <img src="/Assets/images/Socials/twitter.png" alt="Twitter" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/pollux_team/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/Assets/images/Socials/instagram.png"
+                    alt="Instagram"
+                  />
                 </a>
               </li>
             </ul>
             <a href="mailto:polluxafam@gmail.com" className="email-icon">
-              <img src="/Assets/images/email.png" alt="facebook"/>
+              <img src="/Assets/images/email.png" alt="facebook" />
             </a>
           </div>
         </div>

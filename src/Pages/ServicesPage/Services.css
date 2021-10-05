@@ -17,3 +17,10 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 426px) {
+  .servicesSection {
+    padding: 0px 40px;
+    margin-top: 30px;
+  }
+}
