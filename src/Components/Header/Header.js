@@ -71,12 +71,12 @@ const Header = () => {
             <ul>
               <li>
                 <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                  <li className="fa fa-facebook fa-3x icons"> </li>
+                  <img src="/Assets/images/Socials/facebook.png" alt="Facebook"/>
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                  <li className="fa fa-twitter fa-3x icons"> </li>
+                  <img src="/Assets/images/Socials/twitter.png" alt="Twitter"/>
                 </a>
               </li>
               <li>
@@ -85,12 +85,12 @@ const Header = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <li className="fa fa-instagram fa-3x icons"> </li>
+                  <img src="/Assets/images/Socials/instagram.png" alt="Instagram"/>
                 </a>
               </li>
             </ul>
             <a href="mailto:polluxafam@gmail.com" className="email-icon">
-              <li className="fa fa-envelope-o fa-3x icons"> </li>
+              <img src="/Assets/images/email.png" alt="facebook"/>
             </a>
           </div>
         </div>

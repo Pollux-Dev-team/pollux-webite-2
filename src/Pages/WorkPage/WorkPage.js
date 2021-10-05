@@ -9,12 +9,7 @@ const WorkPage = () => {
       <div className="title">
         <h1>Some of our finest wrok</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam,
-          debitis rerum! Ut eligendi officia quaerat. Atque at nihil reiciendis
-          culpa a distinctio mollitia similique iusto delectus quisquam non
-          voluptate, autem commodi esse quod nesciunt repudiandae asperiores.
-          Praesentium repudiandae minus, officia natus mollitia necessitatibus
-          ut rem ipsum autem voluptates quam facere.
+          We are comitted to creating simple and powerful websites to boost our clients' online presence, but don't take our word for it. Check out our latest work.
         </p>
       </div>
 
