@@ -7,7 +7,7 @@ const WorkPage = () => {
   return (
     <section className="workSection">
       <div className="title">
-        <h1>Some of our finest wrok</h1>
+        <h1>Some of our finest work</h1>
         <p>
           We are comitted to creating simple and powerful websites to boost our
           clients' online presence, but don't take our word for it. Check out
