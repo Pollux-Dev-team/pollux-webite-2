@@ -1,11 +1,12 @@
 import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
+import LazyLoad from "react-lazyload";
 
 const HomeContent = () => {
   return (
     <section className="home">
-      <img className="home-img" src="./Assets/images/home-img.jpg" alt="" />
+      <LazyLoad><img className="home-img" src="./Assets/images/home-img.jpg" alt="" /></LazyLoad>
       <div className="home-content">
         <h1>
           We build software for people

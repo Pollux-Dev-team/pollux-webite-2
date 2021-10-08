@@ -1,11 +1,12 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 import "./ContactInfo.css";
 
 const ContactInfo = () => {
   return (
     <div className="contact-info">
       <div className="info-box">
-        <img src="/Assets/images/email.png" className="contact-icon" alt="" />
+        <LazyLoad><img src="/Assets/images/email.png" className="contact-icon" alt="" /></LazyLoad>
         <div className="details">
           <h4>Email</h4>
           <a href="mailto:polluxfam@gmail.com">polluxfam@gmail.com</a>
@@ -21,11 +22,13 @@ const ContactInfo = () => {
       </div>
 
       <div className="info-box">
-        <img
-          src="/Assets/images/Socials/facebook.png"
-          className="contact-icon social-icon"
-          alt="Facebook"
-        />
+        <LazyLoad>
+          <img
+            src="/Assets/images/Socials/facebook.png"
+            className="contact-icon social-icon"
+            alt="Facebook"
+          />
+        </LazyLoad>
         <div className="details">
           <h4>Facebook</h4>
           <a
@@ -38,11 +41,13 @@ const ContactInfo = () => {
         </div>
       </div>
       <div className="info-box">
-        <img
-          src="/Assets/images/Socials/instagram.png"
-          className="contact-icon social-icon-ig"
-          alt="Instagram"
-        />
+        <LazyLoad>
+          <img
+            src="/Assets/images/Socials/instagram.png"
+            className="contact-icon social-icon-ig"
+            alt="Instagram"
+          />
+        </LazyLoad>
         <div className="details">
           <h4>Instagram</h4>
           <a
