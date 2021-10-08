@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LazyLoad from "react-lazyload";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
@@ -12,7 +13,7 @@ const Header = () => {
       <header>
         <Link to="/">
           <div className={active ? "logo active" : "logo"}>
-            <img alt="logo" src="/logo.png" />
+            <LazyLoad><img alt="logo" src="/logo.png" /></LazyLoad>
           </div>
         </Link>
         <div
