@@ -6,7 +6,9 @@ import LazyLoad from "react-lazyload";
 const HomeContent = () => {
   return (
     <section className="home">
-      <LazyLoad><img className="home-img" src="./Assets/images/home-img.jpg" alt="" /></LazyLoad>
+      <LazyLoad>
+        <img className="home-img" src="./Assets/images/home-img.webp" alt="" />
+      </LazyLoad>
       <div className="home-content">
         <h1>
           We build software for people

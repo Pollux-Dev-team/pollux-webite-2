@@ -1,27 +1,27 @@
 [
   {
     "id": 2,
-    "img": "./Assets/alarizona.png",
+    "img": "./Assets/alarizona.webp",
     "link": "https://alarizona.netlify.app/en/"
   },
   {
     "id": 3,
-    "img": "./Assets/tindog.png",
+    "img": "./Assets/tindog.webp",
     "link": "https://laughing-jepsen-5b81df.netlify.app/"
   },
   {
     "id": 4,
-    "img": "./Assets/24andfour.png",
+    "img": "./Assets/24andfour.webp",
     "link": "https://26andfourr.netlify.app/"
   },
   {
     "id": 1,
-    "img": "./Assets/abdulrahman.png",
+    "img": "./Assets/abdulrahman.webp",
     "link": "https://abdulrahmanrihan.github.io/"
   },
   {
     "id": 5,
-    "img": "./Assets/pedalfaster.png",
+    "img": "./Assets/pedalfaster.webp",
     "link": "https://pedalfaster.netlify.app/"
   }
 ]

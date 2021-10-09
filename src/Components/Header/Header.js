@@ -1,19 +1,18 @@
 import React, { useState } from "react";
-import LazyLoad from "react-lazyload";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
   const [active, setActive] = useState(false);
-  let BackgroundNormal = "/Assets/images/menu.png";
-  let BackgroundActive = "/Assets/images/close.png";
+  let BackgroundNormal = "/Assets/images/menu.webp";
+  let BackgroundActive = "/Assets/images/close.webp";
 
   return (
     <div>
       <header>
         <Link to="/">
           <div className={active ? "logo active" : "logo"}>
-            <LazyLoad><img alt="logo" src="/logo.png" /></LazyLoad>
+            <img alt="logo" src="/logo.webp" />
           </div>
         </Link>
         <div
@@ -79,7 +78,7 @@ const Header = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src="/Assets/images/Socials/facebook.png"
+                    src="/Assets/images/Socials/facebook.webp"
                     alt="Facebook"
                   />
                 </a>
@@ -90,7 +89,10 @@ const Header = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src="/Assets/images/Socials/twitter.png" alt="Twitter" />
+                  <img
+                    src="/Assets/images/Socials/twitter.webp"
+                    alt="Twitter"
+                  />
                 </a>
               </li>
               <li>
@@ -100,14 +102,14 @@ const Header = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src="/Assets/images/Socials/instagram.png"
+                    src="/Assets/images/Socials/instagram.webp"
                     alt="Instagram"
                   />
                 </a>
               </li>
             </ul>
             <a href="mailto:polluxafam@gmail.com" className="email-icon">
-              <img src="/Assets/images/email.png" alt="facebook" />
+              <img src="/Assets/images/email.webp" alt="facebook" />
             </a>
           </div>
         </div>
