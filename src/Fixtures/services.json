@@ -3,36 +3,36 @@
     "id": 1,
     "name": "Design",
     "description": "A website is the first thing people see about you. We make sure that your website is designed in such a way that facilitates your branding, online presence, and helps you to grow your business.",
-    "img": "./Assets/images/Services/001.png"
+    "img": "./Assets/images/Services/001.webp"
   },
   {
     "id": 2,
     "name": "Web Development",
     "description": "We take the time to get to know your business. We learn everything there is to know. And then we create an outstanding website that displays your business in the best possible manner for maximum return on investment.",
-    "img": "./Assets/images/Services/002.png"
+    "img": "./Assets/images/Services/002.webp"
   },
   {
     "id": 3,
     "name": "SEO",
     "description": "As small business owners, we understand that SEO is a tough process to understand. That's why we're here to help. Let's get your business on top of Google and giving you the traffic it deserves.",
-    "img": "./Assets/images/Services/003.png"
+    "img": "./Assets/images/Services/003.webp"
   },
   {
     "id": 4,
     "name": "Marketing",
     "description": "Marketing is an important practice for businesses of all shapes and sizes. It's the bridge between your business and your consumers, defining what you do in a way that connects with people.",
-    "img": "./Assets/images/Services/004.png"
+    "img": "./Assets/images/Services/004.webp"
   },
   {
     "id": 5,
     "name": "App Development",
     "description": "At Pollux, we strongly believe that every organization needs the right mobile app for their business. We strive to help businesses in various industries get an outstanding app built for them with all the features they ever wanted.",
-    "img": "./Assets/images/Services/005.png"
+    "img": "./Assets/images/Services/005.webp"
   },
   {
     "id": 6,
     "name": "Error Fixing",
     "description": "No matter how big or small the problem, we’re here to help. Whether you’re building your first app or your hundredth, we can troubleshoot it and get you up and running as quickly as possible.",
-    "img": "./Assets/images/Services/006.png"
+    "img": "./Assets/images/Services/006.webp"
   }
 ]
