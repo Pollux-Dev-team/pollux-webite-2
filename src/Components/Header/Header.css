@@ -63,7 +63,7 @@
 }
 
 .navigation ul li p:hover {
-  color: var(--primary-color);
+  color: #ee6c4d;
   cursor: pointer;
 }
 
